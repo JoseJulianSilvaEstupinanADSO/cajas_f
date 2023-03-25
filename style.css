@@ -1,0 +1,444 @@
+body{
+    background-color: grey;
+    z-index: -10;
+    
+}
+main{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: floralwhite;
+    width: 613px;
+    height: 900px;
+    font-size: 100%;
+}
+.logo{
+    position: absolute;
+    left: 60px;
+    top: 40px;
+    z-index: 11;
+
+}
+.img1{
+    position: absolute;
+    z-index: 10;
+}
+.img2{
+    position: absolute;
+    top: 0px;
+    left: 72px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 2;
+}
+.tit{
+    position: absolute;
+    background-color: #fffaf0;
+    top: 24px;
+    right: 0px;
+    width: 300px;
+    height: 134px;
+    margin: auto;
+    text-align: left 10px;
+    z-index: 1;
+    font-family: "Proxima Nova","Verdana","Avenir Next";
+}
+.titulo{
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+    font-size: 50px;
+}
+.triangulos{
+    position: absolute;
+    top: 170px;
+    left: 50px;
+}
+
+.fecha{
+    position: absolute;
+    background-color: #9ddbf2;
+    top: 159px;
+    right: 0;
+    width: 280px;
+    height: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: inline-block;
+    z-index: 2;
+}
+.fecha1{
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    text-align: center;
+
+}
+.fecha2{
+    position: absolute;
+    top: -15px;
+    left: 150px;
+    text-align: center;
+}
+.circulo1{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+}
+.nombre{
+    position: absolute;
+    top: 190px;
+    left: 63px;
+    width: 200px;
+    height: 100px;
+}
+.parrafo1{
+    top: 0px;
+    position: absolute;
+}
+.parrafo2{
+    top: 23px;
+    position: absolute;
+}
+.parrafo3{
+    top: 46px;
+    position: absolute;
+}
+.parrafo4{
+    position: absolute;
+    top: 66px;
+}
+.abajo{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.abajo{
+    position: absolute;
+    top: 900px;
+}
+.img3{
+    position: absolute;
+    /* bottom: -4px; */
+    top: -116px;
+    right: 0px;
+    z-index: 1;
+}
+.img4{
+    position: absolute;
+    /* bottom: -4px; */
+    top: -116px;
+    right: 72px;
+    z-index: 0;
+}
+.firma{
+    position: absolute;
+    background-color: #fffaf0;
+    /* bottom: 40px; */
+    top: 785px;
+    left: 60px;
+    width: 180px;
+    height: 50px;
+    border-top: solid 1px rgb(0, 0, 0);
+
+}
+.f1{
+    position: absolute;
+    top: -10px;
+    left: 50px;
+
+}
+.f2{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+.total{
+    background-color: #fffaf0;
+    position: absolute;
+    right: 60px;
+    /* bottom: 130px; */
+    top: 673px;
+    width: 150px;
+    height: 80px;
+    display: inline-block;
+}
+.total1{
+    position: absolute;
+    top: 0px;
+}
+.total2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.p1{
+    position: absolute;
+    top: -10px;
+    width: 80px;
+}
+.p2{
+    position: absolute;
+    top: 15px;   
+}
+.p3{
+    position: absolute;
+    top: 40px;
+    border-top: solid 1px rgb(0, 0, 0);
+    width: 110px;
+}
+.p4{
+    position: absolute;
+    top: -10px;
+    right: 0px;
+}
+.p5{
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+.p6{
+    position: absolute;
+    top: 40px;
+    right: 0px;
+    border-top: solid 1px rgb(0, 0, 0);
+}
+.lineas{
+    position: absolute;
+    top: 254px;
+    right: 60px;
+}
+.circulo2{
+    position: absolute;
+    /* bottom: 208px; */
+    top: 600px;
+    right: 0px;
+}
+.condiciones{
+    position: absolute;
+    /* bottom: 140px; */
+    top: 678px;
+    left: 60px;
+    background-color: #fffaf0;
+    height: 65px;
+    width: 190px;
+}
+.terms{
+    position: absolute;
+    top: -15px;
+    left: 0px;
+}
+.lorem{
+    position: absolute;
+    top: 8px;
+    left: 0px;
+}
+.elit{
+    position: absolute;
+    top: 25px;
+    left: 0px;
+}
+.contacto{
+    position: absolute;
+    z-index: 2;
+    right: 25px;
+    /* bottom: 15px; */
+    top: 795px;
+    width: 150px;
+    height: 70px;
+}
+.correo{
+    position: absolute;
+    top: -15px;  
+}
+.numero{
+    position: absolute;
+    top: 5px;
+}
+.web{
+    position: absolute;
+    top: 25px;
+}
+.tabla{
+    position: absolute;
+    top: 305px;
+    width: 520px;
+    left: 40px;
+    z-index: 5;
+    height: 340px;
+    border-bottom: solid 1px rgb(0, 0, 0);
+}
+.t1{
+    position: absolute;
+    top: 0px;
+    height: 30px;
+    width: 520px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #003e5e;
+}
+.pt1{
+    position: absolute;
+    top: -10px;
+    left: 20px; 
+}
+.pt2{
+    position: absolute;
+    top: -10px; 
+    left: 130px;
+}
+.pt3{
+    position: absolute;
+    top: -10px; 
+    left: 360px;
+}
+.pt4{
+    position: absolute;
+    top: -10px; 
+    left: 470px;
+}
+.t2{
+    position: absolute;
+    top: 55px;
+    height: 30px;
+    width: 520px;
+    display: inline-block;
+    border-bottom: solid 1px rgb(0, 0, 0);
+}
+.t2p1{
+    position: absolute;
+    top: -10px;
+    left: 20px; 
+}
+.t2p2{
+    position: absolute;
+    top: -10px; 
+    left: 60px;
+}
+.t2p3{
+    position: absolute;
+    top: -10px; 
+    left: 360px;
+}
+.t2p4{
+    position: absolute;
+    top: -10px; 
+    left: 460px;
+}
+.t3{
+    position: absolute;
+    top: 110px;
+    height: 30px;
+    width: 520px;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    display: inline-block;
+}
+.t3p1{
+    position: absolute;
+    top: -10px;
+    left: 20px; 
+}
+.t3p2{
+    position: absolute;
+    top: -10px; 
+    left: 60px;
+}
+.t3p3{
+    position: absolute;
+    top: -10px; 
+    left: 360px;
+}
+.t3p4{
+    position: absolute;
+    top: -10px; 
+    left: 460px;
+}
+.t4{
+    position: absolute;
+    top: 165px;
+    height: 30px;
+    width: 520px;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    display: inline-block;
+}
+.t4p1{
+    position: absolute;
+    top: -10px;
+    left: 20px; 
+}
+.t4p2{
+    position: absolute;
+    top: -10px; 
+    left: 60px;
+}
+.t4p3{
+    position: absolute;
+    top: -10px; 
+    left: 360px;
+}
+.t4p4{
+    position: absolute;
+    top: -10px; 
+    left: 460px;
+}
+.t5{
+    position: absolute;
+    top: 220px;
+    height: 30px;
+    width: 520px;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    display: inline-block;
+}
+.t5p1{
+    position: absolute;
+    top: -10px;
+    left: 20px; 
+}
+.t5p2{
+    position: absolute;
+    top: -10px; 
+    left: 60px;
+}
+.t5p3{
+    position: absolute;
+    top: -10px; 
+    left: 360px;
+}
+.t5p4{
+    position: absolute;
+    top: -10px; 
+    left: 460px;
+}
+.t6{
+    position: absolute;
+    top: 270px;
+    height: 30px;
+    width: 520px;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    display: inline-block;
+}
+.t6p1{
+    position: absolute;
+    top: -10px;
+    left: 20px; 
+}
+.t6p2{
+    position: absolute;
+    top: -10px; 
+    left: 60px;
+}
+.t6p3{
+    position: absolute;
+    top: -10px; 
+    left: 360px;
+}
+.t6p4{
+    position: absolute;
+    top: -10px; 
+    left: 460px;
+}
+
+
